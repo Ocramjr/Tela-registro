@@ -1,0 +1,80 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    position: relative;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: greenyellow;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 45px;
+}
+
+.login,
+.login:hover,
+.login:active {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: black;
+    color: greenyellow;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 50px 30px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .content .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .content .links .link,
+.footer .content .links .link:hover,
+.footer .content .links .link:active {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.footer .direitos {
+    text-align: center;
+}
+
+.footer .content .endereco p {
+    margin: 0;
+}
+
+.footer .content .endereco {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
